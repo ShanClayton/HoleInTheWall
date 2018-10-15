@@ -6,6 +6,8 @@ const methodOverride  = require('method-override');
 const mongoose = require ('mongoose');
 const app = express ();
 const db = mongoose.connection;
+//add express session when you're adding signon
+
 //___________________
 //Port
 //___________________
@@ -16,7 +18,7 @@ const PORT = process.env.PORT || 3000;
 //Database
 //___________________
 // How to connect to the database either via heroku or locally
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost/'+ `myproject2`;
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost/'+ `holeinthewall`;
 
 // Connect to Mongo
 mongoose.connect(MONGODB_URI ,  { useNewUrlParser: true});
@@ -43,11 +45,13 @@ app.use(express.json());// returns middleware that only parses JSON
 //use method override
 app.use(methodOverride('_method'));// allow POST, PUT and DELETE from a form
 
+//CONTROLLER
+
 
 //___________________
 // Routes
 //___________________
-//localhost:3000  - this will reroute to `products`
+//localhost:3000/holeinthewall  - this will reroute to `products`
 app.get('/' , (req, res) => {
   res.send('Hello World!');
 });
