@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Hole in the Wall</title>
+  <!-- css stylesheet link -->
+  <link rel="stylesheet" type="text/css" href="/index.css">
+  <!-- google fonts link -->
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Lato|Mali" rel="stylesheet">
+  <!-- viewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body class="food-index">
+
+  <header>
+    <!-- <div class="container"> -->
+    <div class="full-navbar">
+      <div class="half-navbar-left">
+        <%- include ../partials/navbar.ejs %>
+      </div>
+    </div>
+
+    <h1 class="maintext">Hole in the Wall</h1>
+  </header>
+      <div id="d1">
+        <% for(let i = 0; i < food.length; i++){ %>
+      <div id="d2">
+        <a href='/holeinwall/<%=food[i].id%>'> <img src='<%=food[i].img %>' class="rounded float-left"></a></br>
+        </div>
+        <% } %>
+      </div>
+
+
+
+  <!-- including ejs template for footer -->
+  <%- include ../partials/footer.ejs %>
+</body>
+
+</html>

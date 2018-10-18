@@ -1,0 +1,172 @@
+/* CREDIT TO JERRICA */
+:root {
+  --yellow: #FFCC00;
+  --blue: #003366;
+  --light-blue: #3893e8;
+  --red:#ba160c;
+}
+
+/*=======================*/
+/****** BASE STYLES ******/
+/*=======================*/
+* {
+    margin: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  height: 100%;
+   background-image: url('../images/stripes-light.png');
+  color: black;
+
+}
+.container {
+  display: block;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+/*=======================*/
+/******* Index *******/
+/*======================*/
+
+
+.maintext {
+    font-family: 'Mali', cursive;
+    letter-spacing: 0.05em;
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-size: 3.5em;
+}
+
+    /* .img-container {
+        width: 700px;
+        margin: 0 auto;
+        text-align: center;
+    }
+} */
+
+
+/* #main{
+  position:absolute;
+  /* width:450px;px;
+  height:240px; */
+  /* border:1px solid black;
+  padding:10px;
+} */
+
+/* #main > div{
+  /* float:right;
+  margin:10px;
+  display: inline-block;
+} */
+ /* #d1{
+  width:200px;
+  height:200px;
+
+} */
+
+#d2{
+  margin:10px;
+  display: inline-block;
+
+}
+/*=======================*/
+/******** NAVBAR ********/
+/*=====================*/
+.full-navbar {
+    background-color:var(--light-blue);
+    text-align: center;
+    font-size: 0.7em;
+    font-weight: bold;
+    padding: 0.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    /*width: 100%;*/
+}
+
+.full-navbar ul {
+    padding: 0;
+}
+
+.full-navbar a {
+    text-decoration: none;
+}
+
+.nav-links {
+    padding: 0.2em;
+}
+
+.half-navbar-left a {
+    color: var(--blue);
+}
+
+.half-navbar-left a:hover {
+    color: var(--yellow);
+}
+
+.half-navbar-right {
+    padding: 0.2em;
+}
+
+.full-navbar {
+  font-size: 0.8em;
+  height: 2.5em;
+  padding: 2em 0.8em 0.8em 2em;
+}
+
+.half-navbar-left {
+  float: left;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+
+
+
+/*=======================*/
+/******** FOOTER ********/
+/*=====================*/
+
+footer {
+  background-color: var(--light-blue);
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 20px;
+  letter-spacing: .08em;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.copyright {
+  font-family: 'Lato', sans-serif;
+  float:left;
+}
+
+.message {
+  font-family: 'Lato', sans-serif;
+  float: right;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}

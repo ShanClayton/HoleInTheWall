@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- viewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Hole in the Wall</title>
+  <!-- css stylesheet link -->
+  <link rel="stylesheet" type="text/css" href="/newedit.css">
+  <!-- google fonts link -->
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Lato" rel="stylesheet">
+
+</head>
+  <body>
+    <div class="addrest">
+
+        <h1>Edit</h1>
+        <form action="/holeinwall" method="POST" >
+            <p>Name</p>
+            <input type="text" name="name">
+            <p>Image</p>
+            <input type="text" name="img">
+            <p>Address</p>
+            <input type="text" name="address"/>
+            <p>Speciality</p>
+            <input type="text" name="speciality" />
+            <p>Rating</p>
+            <input type="number" name="rating" min="1" max="5" />
+            <p>Review</p>
+            <input type="text" name="" placeholder="reviews">
+            <input type="submit" name="" value="Add">
+            <a href="/holeinwall/<%=food.id%>">Back to restaurant</a><br />
+            <a href="/holeinwall">Back to homepage</a><br>
+
+
+        </form>
+
+    </div>
+  </body>
+</html>
