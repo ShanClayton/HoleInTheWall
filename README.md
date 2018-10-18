@@ -1,5 +1,5 @@
 # Hole in the Wall
-Hole in the Wall is a full stack application where the user has the ability to edit, update, create and delete resturants in the state of California. The application is responsive and can be viewed on smart phones and tablets.
+Hole in the Wall is a full stack application where the user has the ability to edit, update, create and delete restaurants in the state of California. The application is responsive and can be viewed on smart phones and tablets.
 
 [Link to the live site] (https://damp-brook-20881.herokuapp.com/holeinwall)
 
