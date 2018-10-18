@@ -1,55 +1,61 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Hole in the Wall</title>
-        <!-- css stylesheet link -->
-        <link rel="stylesheet" type="text/css" href="/index.css">
-        <!-- google fonts link -->
-        <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Lato|Mali" rel="stylesheet">
-        <!-- viewport -->
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-    </head>
-    <body class="show-ic-page">
-        <header>
+
+<head>
+  <meta charset="utf-8">
+  <title>Hole in the Wall</title>
+  <!-- css stylesheet link -->
+  <link rel="stylesheet" type="text/css" href="/index.css">
+  <!-- google fonts link -->
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Lato|Mali" rel="stylesheet">
+  <!-- viewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body class="show-ic-page">
+  <header>
+  <div class="full-navbar">
+      <div class="half-navbar-left">
+        <%- include ../partials/navbar.ejs %>
+      </div>
+    </div>
+  </header>
+  <main>
+
+    <div class="form-container" id="box1">
+      <section>
+        <h2 class="h2-show">
+          <%=food.name%>
+        </h2>
+        <center> <img src="<%=food.img%>" /> </center>
+
+        <div class="p-show">
+          <p class="p-text">
+            <%=food.address%>
+          </p>
+          <p class="p-text"><b>speciality:</b>
+            <%=food.speciality%>
+          </p>
+          <p class="p-text"><b>rating:</b>
+            <%=food.rating%>
+          </p>
+          <p class="p-text"><b>reviews:</b>
+            <%=food.reviews%>
+          </p>
+        </div>
 
 
-            <div class="full-navbar">
-                <div class="half-navbar-left">
-                    <%- include ../partials/navbar.ejs %>
-                </div>
-            </div>
+        <button class="button"><a href="/holeinwall/<%=food.id%>/edit">Edit</a></p></button>
+      </section>
 
 
+      <section>
+        <form action="/holeinwall/<%=food._id%>?_method=DELETE" method="POST">
+          <input class="button" id="deleteres" type="submit" value="Delete">
+        </form>
+      </section>
+    </div>
+  </main>
+</body>
 
-        </header>
-
-        <main>
-
-            <div class="form-container" id="box1">
-                <section>
-                    <h2 class="h2-show"> <%=food.name%> </h2>
-                    <!-- <p class="page-link"><a href="/holeinwall">Home</a></p> -->
-                    <center> <img src="<%=food.img%>" /> </center>
-
-                    <div class="p-show">
-                        <p class="p-text"><%=food.address%></p>
-                        <p class="p-text"><b>speciality:</b> <%=food.speciality%></p>
-                        <p class="p-text"><b>rating:</b> <%=food.rating%></p>
-                        <p class="p-text"><b>reviews:</b> <%=food.reviews%></p>
-                    </div>
-
-
-                    <p class="page-link"><a href="/holeinwall/<%=food.id%>/edit">Edit</a></p>
-                </section>
-
-
-                <section>
-                    <form action="/holeinwall/<%=food._id%>?_method=DELETE" method="POST">
-                        <input class="button" id="deleteres" type="submit" value="Delete">
-                    </form>
-                </section>
-            </div>
-        </main>
-    </body>
 </html>

@@ -138,28 +138,16 @@ img {
 
 
 #delete-ic {
-    width: 20em;
-    margin: 1em auto;
-    color: white;
-    background-color: #4B7BD7;
-    font-size: 1em;
+
 }
 
-#delete-ic:hover {
+.button:hover {
     background-color: #99898E;
 }
 
-
-/* @media (min-width: 650px) {
-    #show-ic-cont {
-        width: 35em;
-    } */
-
-    .h2-show-ic {
-        font-size: 2em;
-    }
-
-    #delete-ic {
-        width: 35em;
-    }
+.h2-show-ic {
+  font-size: 2em;
+}
+#delete-ic {
+  width: 35em;
 }

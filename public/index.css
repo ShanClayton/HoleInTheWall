@@ -7,7 +7,7 @@
 }
 
 /*=======================*/
-/****** BASE STYLES ******/
+/****** GENERAL ******/
 /*=======================*/
 * {
     margin: 0;
@@ -33,6 +33,27 @@ img {
   width: 200px;
   border: 1px solid black;
 }
+
+/* .page-link, .page-link {
+    font-size: 0.8em;
+    background-color: #FFAAB8;
+    border: none;
+    border-radius: 0.3em;
+    padding: 0.2em 1.2em;
+    margin: 2em auto;
+    text-align: center;
+}
+
+.page-link:hover, .page-link:hover {
+    background-color: #99898E;
+
+}
+
+.page-link a, .page-link a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+} */
 
 /*=======================*/
 /******* Index *******/
@@ -133,7 +154,9 @@ nav ul li {
   display: inline-block;
 }
 
-/* //NEW AND EDIT  */
+/*=======================*/
+/******** NEW & EDIT ********/
+/*=====================*/
 .addrest{
     width: 320px;
     height: 720px;
@@ -204,6 +227,32 @@ h1{
 {
     color: var(--yellow);
 }
+
+
+/*=======================*/
+/******** SHOW ********/
+/*=====================*/
+.form-container {
+    padding: 1em;
+    width: 15em;
+    margin: 0 auto;
+    display: block;
+    background-color: var(--yellow);
+    border-radius: 0.5em;
+}
+.button {
+  width: 14em;
+  margin: 1em auto;
+  color: white;
+  background-color: #4B7BD7;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.button:hover {
+    background-color: #99898E;
+}
+
 
 
 /*=======================*/
