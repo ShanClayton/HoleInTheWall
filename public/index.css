@@ -41,6 +41,7 @@ img {
 
 .maintext {
     font-family: 'Mali', cursive;
+    font-weight: bold;
     letter-spacing: 0.05em;
     font-size: 2em;
     text-align: center;
