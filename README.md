@@ -16,7 +16,7 @@ Hole in the Wall is a full stack application where the user has the ability to e
 ## Technical Issues
 - <s>My app was successfully sent to Heroku, but it's not showing. I'm getting a 'Cannot Get' everything is connected as it's supossed to</s>
 
--Fix edit page. Changes are not shown once button is clicked.
+- Fix edit page. Changes are not shown once button is clicked.
 
 ## Future Features
 - Filter shops by county and city
