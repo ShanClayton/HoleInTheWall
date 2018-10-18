@@ -53,7 +53,7 @@ app.use('/holeinwall', foodController);
 //ROUTES
 // ROOT ROUTE
 app.get('/' , (req, res) => {
-  res.send('Hello World!');
+  res.render('index.ejs');
 });
 
 
