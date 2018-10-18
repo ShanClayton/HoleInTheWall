@@ -34,26 +34,6 @@ img {
   border: 1px solid black;
 }
 
-/* .page-link, .page-link {
-    font-size: 0.8em;
-    background-color: #FFAAB8;
-    border: none;
-    border-radius: 0.3em;
-    padding: 0.2em 1.2em;
-    margin: 2em auto;
-    text-align: center;
-}
-
-.page-link:hover, .page-link:hover {
-    background-color: #99898E;
-
-}
-
-.page-link a, .page-link a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.3em;
-} */
 
 /*=======================*/
 /******* Index *******/
@@ -239,6 +219,7 @@ h1{
     display: block;
     background-color: var(--yellow);
     border-radius: 0.5em;
+
 }
 .button {
   width: 14em;
@@ -253,7 +234,9 @@ h1{
     background-color: #99898E;
 }
 
-
+.h2-show {
+  text-align: center;
+}
 
 /*=======================*/
 /******** FOOTER ********/
