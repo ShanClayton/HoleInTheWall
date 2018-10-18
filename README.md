@@ -16,7 +16,7 @@ Hole in the Wall is a full stack application where the user has the ability to e
 ## Technical Issues
 - My app was successfully sent to Heroku, but it's not showing. I'm getting a 'Cannot Get' everything is connected as it's supossed to. 
 
-## Feature Features
+## Future Features
 - Filter shops by county and city
 - Add Google maps 
 - Add About Page
