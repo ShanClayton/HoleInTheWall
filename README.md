@@ -20,5 +20,5 @@ Hole in the Wall is a full stack application where the user has the ability to e
 - Filter shops by county and city
 - Add Google maps 
 - Add About Page
-- Add pictures and navigationl link to edit and add pages
+- Add pictures and navigation link to edit and add pages
 
