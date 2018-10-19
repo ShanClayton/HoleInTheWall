@@ -11,6 +11,7 @@ Hole in the Wall is a full stack application where the user has the ability to e
 - MongoDB and Mongoose
 - EJS for server-side rendering
 - Heroku 
+- Bootstrap
 
 
 ## Technical Issues
